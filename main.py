@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import ttk
+from PIL import ImageTk, Image
 
 color0 = "#444466"
 color1 = "#feffff"
@@ -20,6 +21,15 @@ top_frame.grid(row=1,column=0)
 bottom_frame = Frame(window, width=320,height=300,bg=background, pady=0,padx=0, relief='flat')
 bottom_frame.grid(row=2,column=0,sticky=NW)
 
+image = Image.open('images/ic_bitcoin.png')
+image = image.resize((30,30),Image.Resampling.LANCZOS)
+image = ImageTk.PhotoImage(image)
+
+l_icon = Label(top_frame, image=image,bg=color1,compound=LEFT,relief=FLAT)
+l_icon.place(x=10,y=10)
+
+l_title = Label(top_frame, text='Bitcoin Price Tracker',bg=color1, fg=color2,relief=FLAT, anchor='center',font=("Arial 18"))
+l_title.place(x=50,y=5)
 
 
 
