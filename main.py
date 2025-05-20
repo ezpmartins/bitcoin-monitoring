@@ -32,7 +32,17 @@ l_title = Label(top_frame, text='Bitcoin Price Tracker',bg=color1, fg=color2,rel
 l_title.place(x=50,y=5)
 
 
+l_p_usd = Label(bottom_frame, text='$ 10,000,00', width=14,bg=background, fg=color1,relief=FLAT, anchor='center',font=("Arial 20"))
+l_p_usd.place(x=0,y=50)
 
+l_p_euro = Label(bottom_frame, text='€ 10,000,00', width=14,bg=background, fg=color1,relief=FLAT, anchor='center',font=("Arial 12"))
+l_p_euro.place(x=10,y=130)
+
+l_p_real = Label(bottom_frame, text='R$ 10,000,00', width=14,bg=background, fg=color1,relief=FLAT, anchor='center',font=("Arial 12"))
+l_p_real.place(x=0,y=160)
+
+l_p_libra = Label(bottom_frame, text='£ 10,000,00', width=14,bg=background, fg=color1,relief=FLAT, anchor='center',font=("Arial 12"))
+l_p_libra.place(x=0,y=190)
 
 
 
