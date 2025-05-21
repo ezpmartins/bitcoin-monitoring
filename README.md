@@ -52,7 +52,7 @@ Certifique-se de ter instalado:
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd bitcoin-price-tracker
+   cd src/bitcoin_monitoring.py
    ```
 3. Certifique-se de que o arquivo de imagem `ic_bitcoin.png` está na pasta `src/images/`.
 4. Execute o script principal:
