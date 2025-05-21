@@ -3,7 +3,7 @@
 
 ## Descrição
 
-O **Bitcoin Price Tracker** é uma aplicação simples desenvolvida em Python com a biblioteca Tkinter. Ele exibe, em tempo real, os preços do Bitcoin em diferentes moedas (USD, EUR, BRL e AOA), utilizando uma interface gráfica intuitiva e responsiva.
+O **Bitcoin-Monitoring** é uma aplicação simples desenvolvida em Python com a biblioteca Tkinter. Ele exibe, em tempo real, os preços do Bitcoin em diferentes moedas (USD, EUR, BRL e AOA), utilizando uma interface gráfica intuitiva e responsiva.
 
 ---
 
@@ -52,11 +52,11 @@ Certifique-se de ter instalado:
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd bitcoin-price-tracker
+   cd src/bitcoin_monitoring.py
    ```
 3. Certifique-se de que o arquivo de imagem `ic_bitcoin.png` está na pasta `src/images/`.
-4. Execute o script principal:
+4. Execute o .exe localizado no a caminho:
 
    ```bash
-   python app.py
+   cd dist/bitcoin_monitoring.exe
    ```
