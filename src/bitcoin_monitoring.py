@@ -48,7 +48,7 @@ def info():
 
     bottom_frame.after(1000, info)
 
-image = Image.open('images/ic_bitcoin.png')
+image = Image.open('src/images/ic_bitcoin.png')
 image = image.resize((30, 30), Image.Resampling.LANCZOS)
 image = ImageTk.PhotoImage(image)
 
