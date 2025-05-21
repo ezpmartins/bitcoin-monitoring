@@ -55,8 +55,8 @@ Certifique-se de ter instalado:
    cd src/bitcoin_monitoring.py
    ```
 3. Certifique-se de que o arquivo de imagem `ic_bitcoin.png` está na pasta `src/images/`.
-4. Execute o script principal:
+4. Execute o .exe localizado no a caminho:
 
    ```bash
-   python app.py
+   cd dist/bitcoin_monitoring.exe
    ```
